@@ -74,12 +74,8 @@ nav a:nth-child(3) {
 .contact {
   background-color: #000000;
   color: #ffffff;
-  width: 100px;
-  height: 41px;
   border-radius: 5px;
   position: absolute;
-  top: 29px;
-  left: 1300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,6 +84,10 @@ nav a:nth-child(3) {
   font-style: Regular;
   font-size: 18px;
   letter-spacing: 0%;
+  width: 100px;
+  height: 41px;
+  top: 29px;
+  left: 1300px;
 }
 
 h1 {
@@ -125,4 +125,42 @@ p {
   position: absolute;
   top: 156px;
   left: 820px;
+}
+
+.btn1 {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans Thai";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  letter-spacing: 0%;
+  width: 157px;
+  height: 41px;
+  top: 460px;
+  left: 100px;
+}
+
+.btn2 {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans Thai";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  letter-spacing: 0%;
+  width: 157px;
+  height: 41px;
+  top: 459px;
+  left: 271px;
 }/*# sourceMappingURL=style.css.map */
