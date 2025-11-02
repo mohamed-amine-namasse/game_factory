@@ -45,26 +45,32 @@ a {
   font-style: Regular;
   font-size: 18px;
   letter-spacing: 0%;
-  .element {
-    width: 100px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
+
+.elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 nav a:nth-child(1) {
   position: absolute;
+  width: 100px;
+  height: 40px;
   top: 30px;
   left: 1005px;
 }
 nav a:nth-child(2) {
   position: absolute;
+  width: 100px;
+  height: 40px;
   top: 30px;
   left: 1076px;
 }
 nav a:nth-child(3) {
   position: absolute;
+  width: 100px;
+  height: 40px;
   top: 30px;
   left: 1149px;
 }
@@ -97,6 +103,21 @@ h1 {
 }
 .title {
   position: absolute;
+  width: 400px;
+  height: 100px;
   top: 156px;
   left: 100px;
+}
+.paragraph {
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  top: 308px;
+  left: 100px;
+}
+p {
+  font-family: "Noto Sans Thai";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
 }
