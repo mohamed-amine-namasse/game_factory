@@ -1,6 +1,7 @@
 $background-color: #f3f3f3;
 $primary-color: #000000;
 $text-color: #ffffff;
+$line-color: #c5c5c5;
 
 * {
   margin: 0;
@@ -41,7 +42,6 @@ nav {
   align-items: center;
 
   a {
-    text-decoration: none;
     color: #000000;
     font-family: "Noto Sans Thai";
     font-weight: 400;
@@ -141,4 +141,96 @@ p {
   height: 41px;
   top: 459px;
   left: 271px;
+}
+
+footer {
+  background-color: $primary-color;
+  width: 1440px;
+  height: 555px;
+  position: absolute;
+  top: 2445px;
+}
+
+#white {
+  color: #ffffff;
+}
+.bas {
+  text-align: center;
+}
+
+.container_footer {
+  display: flex;
+  margin-bottom: 260px;
+}
+.hr_milieu {
+  width: 850px;
+  opacity: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: solid 3px $line-color;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  li {
+    a {
+      font-family: "Noto Sans Thai";
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-decoration: underline;
+      text-decoration-style: solid;
+      text-decoration-thickness: 0%;
+      text-decoration-skip-ink: auto;
+      color: #ffffff;
+    }
+  }
+}
+
+h3 {
+  font-family: "Noto Sans Thai";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.bloc1 {
+  width: 300px;
+  height: 125px;
+  opacity: 1;
+  margin-top: 75px;
+  position: absolute;
+  left: 40px;
+}
+.bloc2 {
+  width: 300px;
+  height: 125px;
+  opacity: 1;
+  margin-top: 75px;
+  position: absolute;
+  left: 380px;
+}
+.bloc3 {
+  width: 300px;
+  height: 125px;
+  opacity: 1;
+  margin-top: 75px;
+  position: absolute;
+  left: 720px;
+}
+.bloc4 {
+  width: 300px;
+  height: 125px;
+  opacity: 1;
+  margin-top: 75px;
+  position: absolute;
+  left: 1060px;
 }
