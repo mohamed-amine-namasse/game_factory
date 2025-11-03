@@ -146,8 +146,8 @@ p {
 .bouton-blanc {
   background-color: $white;
   color: $primary-color;
+  border: none;
   border-radius: 5px;
-  margin-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,6 +158,7 @@ p {
   letter-spacing: 0%;
   width: 95px;
   height: 31px;
+  margin-top: -20px;
 }
 footer {
   background-color: $primary-color;
@@ -171,7 +172,6 @@ footer {
   color: $white;
 }
 .bas {
-  text-align: center;
   font-family: "Noto Sans Thai";
   font-weight: 500;
   font-style: Medium;
@@ -266,23 +266,26 @@ h3 {
 }
 
 .box {
-  border: gold solid;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.box2 {
   height: 100px;
   display: flex;
   justify-content: center;
 }
 
 .inner {
-  border: green solid;
   display: flex;
   align-items: center;
 }
 
 input {
-  border: solid $email-color;
+  border: $email-color solid;
   width: 160px;
   height: 31px;
-  border-radius: 2px;
+  border-radius: 5px;
   font-family: "Noto Sans Thai";
   font-weight: 400;
   font-style: Regular;
@@ -291,9 +294,11 @@ input {
   padding-left: 10px;
   background-color: $primary-color;
   color: $white;
+  margin-top: -20px;
 }
 
 .flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 19px;
 }

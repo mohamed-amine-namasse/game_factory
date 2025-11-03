@@ -167,8 +167,8 @@ p {
 .bouton-blanc {
   background-color: #ffffff;
   color: #000000;
+  border: none;
   border-radius: 5px;
-  margin-top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,6 +179,7 @@ p {
   letter-spacing: 0%;
   width: 95px;
   height: 31px;
+  margin-top: -20px;
 }
 
 footer {
@@ -194,7 +195,6 @@ footer {
 }
 
 .bas {
-  text-align: center;
   font-family: "Noto Sans Thai";
   font-weight: 500;
   font-style: Medium;
@@ -298,23 +298,27 @@ h3 {
 }
 
 .box {
-  border: gold solid;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.box2 {
   height: 100px;
   display: flex;
   justify-content: center;
 }
 
 .inner {
-  border: green solid;
   display: flex;
   align-items: center;
 }
 
 input {
-  border: solid #a7a7a7;
+  border: #a7a7a7 solid;
   width: 160px;
   height: 31px;
-  border-radius: 2px;
+  border-radius: 5px;
   font-family: "Noto Sans Thai";
   font-weight: 400;
   font-style: Regular;
@@ -323,9 +327,11 @@ input {
   padding-left: 10px;
   background-color: #000000;
   color: #ffffff;
+  margin-top: -20px;
 }
 
 .flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 19px;
 }/*# sourceMappingURL=style.css.map */
