@@ -3,6 +3,7 @@ $primary-color: #000000;
 $white: #ffffff;
 $line-color: #c5c5c5;
 $email-color: #a7a7a7;
+$heart-color: red;
 
 * {
   margin: 0;
@@ -182,6 +183,13 @@ footer {
   text-align: center;
   vertical-align: middle;
 }
+.bas2 {
+  font-family: "Noto Sans Thai";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  letter-spacing: 0%;
+}
 .center {
   text-align: center;
 }
@@ -304,4 +312,44 @@ input {
   display: flex;
   justify-content: space-between;
   gap: 19px;
+}
+
+.flex2 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.flex3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.flex2 a {
+  font-family: "Noto Sans Thai";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  text-decoration-skip-ink: auto;
+  color: $white;
+}
+
+.flex2 p:nth-child(1) {
+  margin-left: 31px;
+  width: 346px;
+}
+
+.flex2 p:nth-child(2) {
+  width: 240px;
+  margin-left: 224px;
+  margin-right: 334px;
+}
+
+span {
+  color: $heart-color;
 }
