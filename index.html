@@ -25,15 +25,28 @@
           <div class="logo">The Game Factory</div>
         </div>
       </div>
-      <div class="links">
-        <nav>
-          <a href="#">Games</a>
-          <a href="#">Team</a>
-          <a href="#">About</a>
-        </nav>
-        <button class="contact">Contact</button>
-      </div>
+
+      <nav class="navbar">
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-toggle"
+          aria-label="Ouvrir le menu"
+        />
+        <label class="nav-burger" for="nav-toggle" aria-hidden="true"
+          ><span></span
+        ></label>
+        <ul class="nav-menu nav-pills">
+          <div class="links">
+            <a href="#"><li>Games</li></a>
+            <a href="#"><li>Team</li></a>
+            <a href="#"><li>About</li></a>
+          </div>
+          <button class="contact">Contact</button>
+        </ul>
+      </nav>
     </header>
+
     <main>
       <div class="title"><h1>Crafting Epic Gaming Experiences</h1></div>
       <div class="paragraph">
@@ -92,7 +105,7 @@
       <div class="box">
         <div class="inner">
           <div>
-            <h3 id="white" class="center">Stay Updated</h3>
+            <h3 class="center">Stay Updated</h3>
             <p id="white" class="bas">
               Get the latest news about our games and studio updates.
             </p>
