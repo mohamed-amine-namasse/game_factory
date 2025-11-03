@@ -359,7 +359,7 @@ input {
 .flex3 {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
 }
 
 .flex2 a {
