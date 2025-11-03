@@ -164,6 +164,23 @@ p {
   left: 271px;
 }
 
+.bouton-blanc {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 5px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans Thai";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 10px;
+  letter-spacing: 0%;
+  width: 95px;
+  height: 31px;
+}
+
 footer {
   background-color: #000000;
   width: 1440px;
@@ -187,15 +204,17 @@ footer {
   text-align: center;
   vertical-align: middle;
 }
+
 .center {
   text-align: center;
 }
-.container_footer {
+
+.container-footer {
   display: flex;
-  margin-bottom: 260px;
+  height: 250px;
 }
 
-.hr_milieu {
+.hr-milieu {
   width: 850px;
   opacity: 50%;
   margin-left: 25%;
@@ -221,11 +240,11 @@ ul li a {
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
   -webkit-text-decoration-skip: ink;
-  text-decoration-skip-ink: auto;
+          text-decoration-skip-ink: auto;
   color: #ffffff;
 }
 
-h3 {
+h2 {
   font-family: "Noto Sans Thai";
   font-weight: 500;
   font-style: Medium;
@@ -233,7 +252,17 @@ h3 {
   line-height: 100%;
   letter-spacing: 0%;
   color: #ffffff;
-  margin-bottom: 38px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-family: "Noto Sans Thai";
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
 }
 
 .bloc1 {
@@ -241,8 +270,7 @@ h3 {
   height: 125px;
   opacity: 1;
   margin-top: 42px;
-  position: absolute;
-  left: 40px;
+  margin-left: 40px;
 }
 
 .bloc2 {
@@ -250,8 +278,7 @@ h3 {
   height: 125px;
   opacity: 1;
   margin-top: 42px;
-  position: absolute;
-  left: 380px;
+  margin-left: 40px;
 }
 
 .bloc3 {
@@ -259,8 +286,7 @@ h3 {
   height: 125px;
   opacity: 1;
   margin-top: 42px;
-  position: absolute;
-  left: 720px;
+  margin-left: 40px;
 }
 
 .bloc4 {
@@ -268,6 +294,38 @@ h3 {
   height: 125px;
   opacity: 1;
   margin-top: 42px;
-  position: absolute;
-  left: 1060px;
-} /*# sourceMappingURL=style.css.map */
+  margin-left: 40px;
+}
+
+.box {
+  border: gold solid;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.inner {
+  border: green solid;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: solid #a7a7a7;
+  width: 160px;
+  height: 31px;
+  border-radius: 2px;
+  font-family: "Noto Sans Thai";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 10px;
+  letter-spacing: 0%;
+  padding-left: 10px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

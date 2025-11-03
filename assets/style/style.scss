@@ -1,7 +1,8 @@
 $background-color: #f3f3f3;
 $primary-color: #000000;
-$text-color: #ffffff;
+$white: #ffffff;
 $line-color: #c5c5c5;
+$email-color: #a7a7a7;
 
 * {
   margin: 0;
@@ -18,7 +19,7 @@ header {
   height: 100px;
   display: flex;
   align-items: center;
-  background-color: #ffffff;
+  background-color: $white;
 }
 
 .logo {
@@ -74,7 +75,7 @@ nav a:nth-child(3) {
 
 @mixin bouton-noir {
   background-color: $primary-color;
-  color: $text-color;
+  color: $white;
   border-radius: 5px;
   position: absolute;
   display: flex;
@@ -142,7 +143,22 @@ p {
   top: 459px;
   left: 271px;
 }
-
+.bouton-blanc {
+  background-color: $white;
+  color: $primary-color;
+  border-radius: 5px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans Thai";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 10px;
+  letter-spacing: 0%;
+  width: 95px;
+  height: 31px;
+}
 footer {
   background-color: $primary-color;
   width: 1440px;
@@ -152,7 +168,7 @@ footer {
 }
 
 #white {
-  color: #ffffff;
+  color: $white;
 }
 .bas {
   text-align: center;
@@ -165,12 +181,14 @@ footer {
   text-align: center;
   vertical-align: middle;
 }
-
-.container_footer {
-  display: flex;
-  margin-bottom: 260px;
+.center {
+  text-align: center;
 }
-.hr_milieu {
+.container-footer {
+  display: flex;
+  height: 250px;
+}
+.hr-milieu {
   width: 850px;
   opacity: 50%;
   margin-left: 25%;
@@ -194,51 +212,88 @@ ul {
       text-decoration-style: solid;
       text-decoration-thickness: 0%;
       text-decoration-skip-ink: auto;
-      color: #ffffff;
+      color: $white;
     }
   }
 }
 
-h3 {
+h2 {
   font-family: "Noto Sans Thai";
   font-weight: 500;
   font-style: Medium;
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 0%;
-  color: #ffffff;
+  color: $white;
   margin-bottom: 40px;
 }
-
+h3 {
+  font-family: "Noto Sans Thai";
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: $white;
+}
 .bloc1 {
   width: 300px;
   height: 125px;
   opacity: 1;
   margin-top: 42px;
-  position: absolute;
-  left: 40px;
+  margin-left: 40px;
 }
 .bloc2 {
   width: 300px;
   height: 125px;
   opacity: 1;
   margin-top: 42px;
-  position: absolute;
-  left: 380px;
+  margin-left: 40px;
 }
 .bloc3 {
   width: 300px;
   height: 125px;
   opacity: 1;
   margin-top: 42px;
-  position: absolute;
-  left: 720px;
+  margin-left: 40px;
 }
 .bloc4 {
   width: 300px;
   height: 125px;
   opacity: 1;
   margin-top: 42px;
-  position: absolute;
-  left: 1060px;
+  margin-left: 40px;
+}
+
+.box {
+  border: gold solid;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.inner {
+  border: green solid;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: solid $email-color;
+  width: 160px;
+  height: 31px;
+  border-radius: 2px;
+  font-family: "Noto Sans Thai";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 10px;
+  letter-spacing: 0%;
+  padding-left: 10px;
+  background-color: $primary-color;
+  color: $white;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
