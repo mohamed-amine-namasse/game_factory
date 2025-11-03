@@ -22,7 +22,7 @@ body {
 .links {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 51px;
   margin-right: 40px;
   /* Responsive */
   @media (max-width: 982px) {
@@ -43,7 +43,6 @@ header {
     flex-direction: column;
   }
 }
-
 .logo {
   font-family: "Noto Sans Thai";
   color: #000000;

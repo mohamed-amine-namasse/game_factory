@@ -17,7 +17,7 @@ body {
 .links {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 51px;
   margin-right: 40px;
   /* Responsive */
 }
@@ -255,8 +255,7 @@ ul li a {
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
   color: #ffffff;
 }
 
@@ -323,7 +322,6 @@ h3 {
   height: 100px;
   display: flex;
   justify-content: center;
-  height: -moz-fit-content;
   height: fit-content;
   margin-bottom: 64px;
 }
@@ -378,8 +376,7 @@ input {
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
   color: #ffffff;
 }
 
