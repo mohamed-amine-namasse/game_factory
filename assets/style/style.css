@@ -507,4 +507,13 @@ input {
 
 span {
   color: red;
+}
+
+.bloc p {
+  font-family: "Noto Sans Thai";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }/*# sourceMappingURL=style.css.map */
