@@ -407,7 +407,10 @@ input {
   align-items: center;
   justify-content: space-between;
   @media (max-width: 992px) {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    align-items: center;
   }
 }
 
@@ -415,6 +418,10 @@ input {
   display: flex;
   justify-content: space-between;
   gap: 25px;
+  @media (max-width: 992px) {
+    display: flex;
+    justify-content: center;
+  }
 }
 .flex2 a {
   font-family: "Noto Sans Thai";
