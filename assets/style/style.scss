@@ -266,6 +266,9 @@ footer {
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 76px;
+  @media (max-width: 992px) {
+    padding-left: 27px;
+  }
 }
 
 #white {
@@ -298,6 +301,7 @@ footer {
   @media (max-width: 992px) {
     display: flex;
     flex-wrap: wrap;
+    gap: 80px 8px;
     margin-bottom: 180px;
   }
 }

@@ -305,6 +305,11 @@ footer {
   padding-right: 40px;
   padding-bottom: 76px;
 }
+@media (max-width: 992px) {
+  footer {
+    padding-left: 27px;
+  }
+}
 
 #white {
   color: #ffffff;
@@ -342,6 +347,7 @@ footer {
   .container-footer {
     display: flex;
     flex-wrap: wrap;
+    gap: 80px 8px;
     margin-bottom: 180px;
   }
 }
