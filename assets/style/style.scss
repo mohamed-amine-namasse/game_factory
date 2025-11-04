@@ -20,7 +20,7 @@ main {
   padding-bottom: 56px;
   display: flex;
   justify-content: space-between;
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     display: flex;
     flex-direction: column;
   }
@@ -53,7 +53,7 @@ main {
   justify-content: center;
   cursor: pointer;
   background: $white;
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     display: flex;
   }
 }
@@ -95,7 +95,7 @@ main {
   opacity: 0;
 }
 /* Burger visible en mobile */
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   /* Ouverture du menu mobile */
   .nav-toggle:checked ~ .nav-menu {
     opacity: 1;
@@ -114,7 +114,7 @@ main {
   display: flex;
   list-style: none;
   align-items: center;
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     position: fixed;
     top: 144px;
     right: 30px;
@@ -155,7 +155,7 @@ main {
   display: flex;
   justify-content: center;
   gap: 20px;
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     display: flex;
     flex-direction: column;
   }
@@ -168,7 +168,7 @@ header {
   background-color: $white;
 
   /* Responsive */
-  @media (max-width: 982px) {
+  @media (max-width: 1200px) {
     display: flex;
     flex-direction: column;
   }
@@ -266,7 +266,7 @@ footer {
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 76px;
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     padding-left: 27px;
   }
 }
@@ -298,7 +298,7 @@ footer {
   display: flex;
   height: 204px;
   gap: 40px;
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
     gap: 80px 8px;
@@ -358,7 +358,7 @@ h3 {
   height: 125px;
   opacity: 1;
 
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     width: 306px;
     height: 125px;
   }
@@ -410,7 +410,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     display: flex;
     flex-direction: column;
     gap: 49px;
@@ -422,7 +422,7 @@ input {
   display: flex;
   justify-content: space-between;
   gap: 25px;
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     display: flex;
     justify-content: center;
   }
