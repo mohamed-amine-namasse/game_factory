@@ -18,7 +18,7 @@ main {
   padding-top: 56px;
   padding-right: 55px;
   padding-left: 55px;
-  padding-bottom: 55px;
+  padding-bottom: 56px;
   display: flex;
   justify-content: space-between;
   @media (max-width: 992px) {
@@ -218,7 +218,9 @@ h1 {
   font-size: 36px;
   letter-spacing: 0%;
 }
-
+.paragraph {
+  margin-bottom: 58px;
+}
 .paragraph p {
   margin-top: 52px;
   width: 400px;

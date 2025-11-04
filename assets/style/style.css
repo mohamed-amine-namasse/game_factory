@@ -13,7 +13,7 @@ main {
   padding-top: 56px;
   padding-right: 55px;
   padding-left: 55px;
-  padding-bottom: 55px;
+  padding-bottom: 56px;
   display: flex;
   justify-content: space-between;
 }
@@ -222,6 +222,10 @@ h1 {
   font-style: "SemiBold";
   font-size: 36px;
   letter-spacing: 0%;
+}
+
+.paragraph {
+  margin-bottom: 58px;
 }
 
 .paragraph p {
