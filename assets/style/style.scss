@@ -52,7 +52,7 @@ main {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background: #fff;
+  background: $white;
   @media (max-width: 992px) {
     display: flex;
   }
@@ -119,7 +119,7 @@ main {
     top: 144px;
     right: 30px;
     left: 30px;
-    background: #fff;
+    background: $white;
     border: $email-color solid 1px;
     border-radius: 14px;
     display: flex;
@@ -135,7 +135,7 @@ main {
 
 /* Liens du menu */
 .nav-menu a {
-  color: #000000;
+  color: $primary-color;
   font-family: "Noto Sans Thai";
   font-weight: 400;
   font-style: Regular;
@@ -175,7 +175,7 @@ header {
 }
 .logo {
   font-family: "Noto Sans Thai";
-  color: #000000;
+  color: $primary-color;
   font-weight: 700;
   font-style: "SemiBold";
   font-size: 36px;
@@ -412,14 +412,13 @@ input {
   margin-top: 20px;
   display: flex;
   align-items: center;
-  border: green solid;
+  justify-content: space-between;
 }
 
 .flex3 {
   display: flex;
   justify-content: space-between;
-  gap: 8px;
-  border: gold solid;
+  gap: 25px;
 }
 .flex2 a {
   font-family: "Noto Sans Thai";
