@@ -13,7 +13,15 @@ $heart-color: red;
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: $background-color;
-  overflow-x: hidden;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  border: green solid 1px;
+  @media (max-width: 992px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .header-logo {
   display: flex;
@@ -123,9 +131,9 @@ body {
   /* Panneau du menu mobile */
   .nav-menu {
     position: fixed;
-    top: 94px;
-    right: 96px;
-    left: 96px;
+    top: 144px;
+    right: 30px;
+    left: 30px;
     background: #fff;
     border: $email-color solid 1px;
     border-radius: 14px;
@@ -147,7 +155,6 @@ body {
 }
 
 header {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -173,24 +180,7 @@ header {
   height: 100px;
   width: auto;
 }
-/*
-nav {
-  
-  @media (max-width: 982px) {
-    display: flex;
-    flex-direction: column;
-  }
-  a {
-    color: #000000;
-    font-family: "Noto Sans Thai";
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 18px;
-    letter-spacing: 0%;
-    display: flex;
-    align-items: center;
-  }
-}*/
+
 @mixin bouton-noir {
   background-color: $primary-color;
   color: $white;
@@ -219,18 +209,13 @@ h1 {
   font-size: 36px;
   letter-spacing: 0%;
 }
-.title {
-  width: 400px;
-  height: 100px;
-  margin-top: 56px;
-  margin-left: 100px;
-}
+
 .paragraph {
-  position: absolute;
+  margin-top: 56px;
+}
+.paragraph p {
+  margin-top: 52px;
   width: 400px;
-  height: 100px;
-  top: 308px;
-  left: 100px;
 }
 p {
   font-family: "Noto Sans Thai";
@@ -238,24 +223,21 @@ p {
   font-style: Medium;
   font-size: 18px;
 }
+
 .img {
-  position: absolute;
-  top: 156px;
-  left: 820px;
+  display: flex;
+  width: fit-content;
+  margin-top: 52px;
 }
 .btn1 {
   @include bouton-noir;
   width: 157px;
   height: 41px;
-  top: 460px;
-  left: 100px;
 }
 .btn2 {
   @include bouton-noir;
   width: 157px;
   height: 41px;
-  top: 459px;
-  left: 271px;
 }
 .bouton-blanc {
   background-color: $white;
@@ -276,10 +258,8 @@ p {
 }
 footer {
   background-color: $primary-color;
-  width: 1440px;
+  margin-top: 100px;
   height: 555px;
-  position: absolute;
-  top: 2445px;
 }
 
 #white {
