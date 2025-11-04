@@ -294,9 +294,15 @@ footer {
 .container-footer {
   display: flex;
   height: 204px;
+  gap: 40px;
+  @media (max-width: 992px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 180px;
+  }
 }
 .hr-milieu {
-  width: 850px;
+  width: 80%;
   opacity: 50%;
   margin: 0 auto;
   border: solid 3px $line-color;
@@ -343,28 +349,15 @@ h3 {
   letter-spacing: 0%;
   color: $white;
 }
-.bloc1 {
+.bloc {
   width: 300px;
   height: 125px;
   opacity: 1;
-}
-.bloc2 {
-  width: 300px;
-  height: 125px;
-  opacity: 1;
-  margin-left: 40px;
-}
-.bloc3 {
-  width: 300px;
-  height: 125px;
-  opacity: 1;
-  margin-left: 40px;
-}
-.bloc4 {
-  width: 300px;
-  height: 125px;
-  opacity: 1;
-  margin-left: 40px;
+
+  @media (max-width: 992px) {
+    width: 306px;
+    height: 125px;
+  }
 }
 
 .box {
@@ -413,6 +406,9 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 992px) {
+    display: block;
+  }
 }
 
 .flex3 {
