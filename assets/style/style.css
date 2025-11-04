@@ -347,7 +347,7 @@ footer {
   .container-footer {
     display: flex;
     flex-wrap: wrap;
-    gap: 80px 8px;
+    gap: 80px 100px;
     margin-bottom: 180px;
   }
 }
