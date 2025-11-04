@@ -21,6 +21,13 @@ main {
   }
 }
 
+.flex-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 52px;
+}
+
 .header-logo {
   display: flex;
   align-items: center;
@@ -176,8 +183,8 @@ header {
 .logo {
   font-family: "Noto Sans Thai";
   color: #000000;
-  font-weight: 600;
-  font-style: SemiBold;
+  font-weight: 700;
+  font-style: "SemiBold";
   font-size: 36px;
   letter-spacing: 0%;
 }
@@ -208,8 +215,8 @@ header {
 
 h1 {
   font-family: "Noto Sans Thai";
-  font-weight: 600;
-  font-style: SemiBold;
+  font-weight: 700;
+  font-style: "SemiBold";
   font-size: 36px;
   letter-spacing: 0%;
 }
