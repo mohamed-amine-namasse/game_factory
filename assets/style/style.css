@@ -53,6 +53,11 @@ main {
   cursor: pointer;
   background: #fff;
 }
+@media (max-width: 992px) {
+  .nav-burger {
+    display: flex;
+  }
+}
 
 /* Barres du burger */
 .nav-burger span,
@@ -92,6 +97,15 @@ main {
   opacity: 0;
 }
 
+/* Burger visible en mobile */
+@media (max-width: 992px) {
+  /* Ouverture du menu mobile */
+  .nav-toggle:checked ~ .nav-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+}
 /* Barre de navigation */
 .navbar {
   display: flex;
@@ -104,6 +118,25 @@ main {
   display: flex;
   list-style: none;
   align-items: center;
+}
+@media (max-width: 992px) {
+  .nav-menu {
+    position: fixed;
+    top: 144px;
+    right: 30px;
+    left: 30px;
+    background: #fff;
+    border: #a7a7a7 solid 1px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-10px);
+    opacity: 0;
+    pointer-events: none;
+    max-height: calc(100vh - 96px);
+    overflow: auto;
+    transition: transform 0.2s, opacity 0.2s;
+  }
 }
 
 /* Liens du menu */
@@ -138,36 +171,6 @@ main {
   }
 }
 
-/* Burger visible en mobile */
-@media (max-width: 992px) {
-  .nav-burger {
-    display: flex;
-  }
-  /* Panneau du menu mobile */
-  .nav-menu {
-    position: fixed;
-    top: 144px;
-    right: 30px;
-    left: 30px;
-    background: #fff;
-    border: #a7a7a7 solid 1px;
-    border-radius: 14px;
-    display: flex;
-    flex-direction: column;
-    transform: translateY(-10px);
-    opacity: 0;
-    pointer-events: none;
-    max-height: calc(100vh - 96px);
-    overflow: auto;
-    transition: transform 0.2s, opacity 0.2s;
-  }
-  /* Ouverture du menu mobile */
-  .nav-toggle:checked ~ .nav-menu {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
-  }
-}
 header {
   display: flex;
   align-items: center;
