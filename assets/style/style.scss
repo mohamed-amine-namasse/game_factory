@@ -15,9 +15,12 @@ body {
   background-color: $background-color;
 }
 main {
+  padding-top: 56px;
+  padding-right: 55px;
+  padding-left: 55px;
+  padding-bottom: 55px;
   display: flex;
-  justify-content: space-around;
-  border: green solid 1px;
+  justify-content: space-between;
   @media (max-width: 992px) {
     display: flex;
     flex-direction: column;
@@ -216,9 +219,6 @@ h1 {
   letter-spacing: 0%;
 }
 
-.paragraph {
-  margin-top: 56px;
-}
 .paragraph p {
   margin-top: 52px;
   width: 400px;
@@ -232,8 +232,6 @@ p {
 
 .img {
   display: flex;
-  width: fit-content;
-  margin-top: 52px;
 }
 .btn1 {
   @include bouton-noir;
@@ -264,7 +262,6 @@ p {
 }
 footer {
   background-color: $primary-color;
-  margin-top: 100px;
   height: 555px;
 }
 
